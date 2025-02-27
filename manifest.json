@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Thz Olx",
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://www.olx.com.br/instrumentos-musicais/*"],
+            "css": ["styles.css"],
+            "js": ["script.js"]
+        }
+    ]
+}
